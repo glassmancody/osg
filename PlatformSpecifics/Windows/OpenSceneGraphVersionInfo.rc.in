@@ -20,6 +20,7 @@ BEGIN
             VALUE "InternalName", "OSG"
             VALUE "LegalCopyright", "Copyright (C) 2009"
             VALUE "OriginalFilename", ""
+            VALUE "OSGoSVersion", "${OSGOS_VERSION}"
             VALUE "ProductName", "OpenSceneGraph"
             VALUE "ProductVersion", "${OPENSCENEGRAPH_MAJOR_VERSION}, ${OPENSCENEGRAPH_MINOR_VERSION}, ${OPENSCENEGRAPH_PATCH_VERSION}, ${OPENSCENEGRAPH_SOVERSION}"
         END
