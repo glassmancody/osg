@@ -31,7 +31,7 @@ int main( int argc, char** argv)
     arguments.getApplicationUsage()->setCommandLineUsage(arguments.getApplicationName() + " [options]");
     arguments.getApplicationUsage()->addCommandLineOption("-h or --help",                   "Display this information");
     arguments.getApplicationUsage()->addCommandLineOption("--version-number",               "Print out version number only");
-    arguments.getApplicationUsage()->addCommandLineOption("--osgos-version-number",           "Print out OSGoS version number only");
+    arguments.getApplicationUsage()->addCommandLineOption("--osgos-version-number",         "Print out OSGoS version number only");
     arguments.getApplicationUsage()->addCommandLineOption("--major-number",                 "Print out major version number only");
     arguments.getApplicationUsage()->addCommandLineOption("--minor-number",                 "Print out minor version number only");
     arguments.getApplicationUsage()->addCommandLineOption("--patch-number",                 "Print out patch version number only");
